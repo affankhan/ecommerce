@@ -1,0 +1,19 @@
+.error {
+	display: none;
+}
+
+.error-message {
+
+	color: red;
+	font-family: inherit;
+}
+
+#word-tyoe {
+
+	font-weight: bold;
+}
+
+#result-panel{
+
+	display: none;
+}
