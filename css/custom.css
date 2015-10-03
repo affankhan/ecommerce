@@ -1,19 +1,73 @@
-.error {
-	display: none;
+body {
+    background-color: #888888;
 }
 
-.error-message {
+.special-deals {
 
-	color: red;
-	font-family: inherit;
+    background-color: inherit;
 }
 
-#word-tyoe {
+#slider {
 
-	font-weight: bold;
+
+    overflow: hidden;
+    width: 478px;
+    height: 399px;
+
 }
 
-#result-panel{
+#slider img {
+    display: none;
+    width: 478px;
+    height: 399px;
+}
 
-	display: none;
+.col-md-10 {
+
+    background-color: #777777;
+}
+
+.col-md-2 {
+
+    background-color: #888888;
+}
+
+
+#slideshow {
+
+    position: relative;
+
+
+
+}
+
+
+#slideshow img {
+
+    width: 700px;
+    height: 318px;
+
+
+}
+
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.first {
+
+    background-color: #ffffff;
+
+}
+
+
+.special-deals  img{
+
+    width: 300px;
+    height: 280px;
 }
