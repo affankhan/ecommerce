@@ -73,7 +73,7 @@
                 <button type="button" class="list-group-item">Laptops</button>
             </div>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-9 col-sm-12">
 
             <!-- slider code starts-->
             <div id="slideshow">
@@ -101,16 +101,44 @@
 
     <!-- special deals ads here-->
 
-    <div class="row well special-deals">
-        <div  class="col-md-4 special-deals">
-            <img class="glyphicon-align-center" src="images/special-deals/laptop.jpg">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="images/special-deals/laptop.jpg" alt="Samsung Laptop">
+                <div class="caption">
+                    <h3 class="text-center">Samsung Laptop</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                    <p><a href="#" class="btn btn-info" role="button">View Details</a> <a href="#" class="btn btn-success" role="button">Buy Now</a></p>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4  special-deals">
-            <img class="glyphicon-align-center" src="images/special-deals/desktop.jpg">
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="images/special-deals/desktop.jpg" alt="Lenovo Desktop">
+                <div class="caption">
+                    <h3 class="text-center">Lenovo Desktop</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                    <p><a href="#" class="btn btn-info" role="button">View Details</a> <a href="#" class="btn btn-success" role="button">Buy Now</a></p>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4  special-deals">
-            <img class="glyphicon-align-center" src="images/special-deals/usb.jpg">
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="images/special-deals/usb.jpg" alt="Kingston USB">
+                <div class="caption">
+                    <h3 class="text-center">Kingston USB</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                    <p><a href="#" class="btn btn-info" role="button">View Details</a> <a href="#" class="btn btn-success" role="button">Buy Now</a></p>
+                </div>
+            </div>
         </div>
+
     </div>
 
 
@@ -158,6 +186,13 @@
     </div>
 
 
+</div>
+
+
+<div id="footer">
+    <div class="container">
+        <p class="text-center">All rights reserved &copy;</p>
+    </div>
 </div>
 </body>
 </html>

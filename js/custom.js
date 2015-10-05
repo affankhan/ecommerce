@@ -1,8 +1,6 @@
 $(document).ready(function() {
 
-    //slider control code
-
-
+////////////////////////////// slider control code /////////////////////////////////////
 
     $("#slideshow > div:gt(0)").hide();
 
@@ -13,5 +11,7 @@ $(document).ready(function() {
             .fadeIn(1000)
             .end()
             .appendTo('#slideshow');
-    },  5000);
+    },  3000);
+
+//////////////////////////////////////////////////////////////////////////////////////
 });

@@ -1,5 +1,5 @@
 body {
-    background-color: #888888;
+    background-color: #FFFFFF;
 }
 
 .special-deals {
@@ -11,14 +11,14 @@ body {
 
 
     overflow: hidden;
-    width: 478px;
+    width: 578px;
     height: 399px;
 
 }
 
 #slider img {
     display: none;
-    width: 478px;
+    width: 578px;
     height: 399px;
 }
 
@@ -35,7 +35,7 @@ body {
 
 #slideshow {
 
-    position: relative;
+    margin-top: -10px;
 
 
 
@@ -44,7 +44,7 @@ body {
 
 #slideshow img {
 
-    width: 700px;
+    width: 837px;
     height: 318px;
 
 
@@ -70,4 +70,15 @@ body {
 
     width: 300px;
     height: 280px;
+}
+
+#footer > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.thumbnail img {
+    
+    width: 242px;
+    height: 200px;
 }
